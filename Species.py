@@ -33,6 +33,6 @@ print(mediam_values)
 std_values = final_data.groupby('species')[['petal_length', 'petal_width', 'sepal_length', 'sepal_width']].std()
 print(std_values)
 
-#Versicolor and Virginica are most similar because they have similar mean petal lengths and widths. 
+# Versicolor and Virginica are most similar because they have similar mean petal lengths and widths. 
 # They also have a large overlap in standard deviations. 
 # The mean and correlation statistics indicate that Setosa is least similar to the other two species due to its significantly lower petal measures.
